@@ -6,6 +6,14 @@ import org.gradle.tooling.ProjectConnection;
 
 import java.io.File;
 
+/**
+ * 0: Project path
+ * 1: Tasknames
+ * 2: Number of runs
+ * 3: Parallel [true/false]
+ * 4: Gradle Installation dir (optional)
+ * 5: Grade user home dir (optional)
+ */
 public class Main {
     public static void main(String[] args) {
         // Configure the connector and create the connection
