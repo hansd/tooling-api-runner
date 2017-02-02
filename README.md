@@ -7,4 +7,4 @@ Running Gradle from the command line introduces overhead as a JVM client is alwa
 
 This project use the Gradle application plugin. To get going you need to execute first `./gradlew installDist`. After this you can use the runner: ./build/install/tooling-api-runner/bin/tooling-api-runner [PATH_TO_PROJECT_TO_BUILD] [TASKSNAMES TO BE EXECUTED] [NUMBER OF EXECUTIONS] [PARALLEL true/false] [GRADLE_DISTRIBUTION_TO_BE_USED]
 
-The last argument is option. If not specified it uses either the wrapper defined for the project you want to build. Or if not wrapper is defined in that project, it used the Gradle distribution installed on this machine.
+The last argument is optional. If not specified it uses either the wrapper defined for the project you want to build. Or if no wrapper is defined in that project, it uses the Gradle distribution installed on this machine.
